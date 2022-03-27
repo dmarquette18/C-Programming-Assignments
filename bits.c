@@ -13,6 +13,46 @@
  * case it's OK.  
  */
 
+/* 
+FOR ANY GIT HUB VIEWERS
+The assignment description is as follows:
+1 Introduction
+The learning goals of this assignment are
+•becoming more familiar with bit-level representations of integers and floating point numbers
+•getting some practice programming in C on UNIX
+•becoming familiar with the toolchain we’re using in the class
+You’ll do this by solving a series of programming “puzzles.” Many of these puzzles are quite artificial, but
+you’ll find yourself thinking much more about bits in working your way through them.
+2 IMPORTANT: Notes on Academic Integrity
+It is very important to come up with you own solutions. You may discuss among yourselves but copying
+code from others or any online source is strictly forbidden. Before we do any grading, we will run your
+submissions through MOSS, an automatic tool for source code plagiarism detection. This means that if you
+cheat, we WILL catch you and report you to the dean.
+3 Logistics
+This is a group project. All handins are electronic through Canvas. Clarifications and corrections will be
+posted on Piazza.
+IMPORTANT: Please make sure your code compiles on the Wilkinson machines. If your code does
+not compile, you will receive 0 point on this lab.
+1
+4 Handout Instructions
+For this assignment you will need to download datalab-handout-f19.tar from Canvas. Start by
+copying datalab-handout-f19.tar to a Linux directory in which you plan to do your work. Then
+give the command
+unix> tar xvf datalab-handout-f19.tar
+Note that ” unix> ” is only indicating you should be working on a UNIX based machine. It is not part
+of the command you need to type. This applies to all commands in this lab and in future labs.
+This will cause a number of files to be unpacked in the directory. The only file you will be modifying and
+turning in is bits.c.
+The bits.c file contains a skeleton for each of the 14 programming puzzles. Your assignment is to
+complete each function skeleton using only straightline code for the integer puzzles (i.e., no loops or con-
+ditionals) and a limited number of C arithmetic and logical operators. Specifically, you are only allowed to
+use the following eight operators:
+!  ̃ & ˆ | + << >>
+A few of the functions further restrict this list. Also, you are not allowed to use any constants longer than 8
+bits. See the comments in bits.c for detailed rules and a discussion of the desired coding style
+
+*/
+
 #if 0
 /*
  * Instructions to Students:
